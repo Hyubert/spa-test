@@ -1,0 +1,18 @@
+{
+  "title": "neretva river 2",
+  "descr": "The Neretva river got its name from Celts, they called the river \"Nera Etwa\" which means the \"Flowing Divinity\", \"Divine River\", and no doubt this truly is the Nile of Bosnia and Herzegovina and, indeed, all of South-East Europe - that's my river",
+  "facts": [
+    {
+      "facts__title": "river lenght",
+      "facts__descr": "More than 230 km"
+    },
+    {
+      "facts__title": "biggest lake",
+      "facts__descr": "Jablanica lake"
+    },
+    {
+      "facts__title": "coolest activity",
+      "facts__descr": "Rafting"
+    }
+  ]
+}

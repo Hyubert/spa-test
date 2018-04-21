@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <div class="view">
+    <!-- js render  -->
+  </div>
+
+  <div class="load">
+    <div class="load__inner"></div>
+  </div>
+
+  <script id="template" type="text/x-handlebars-template">
+    <div class="view__top">
+      <div class="view__content">
+        <header class="header">
+          <div class="logo">
+            <h3 class="logo__text">explore.</h3>
+          </div>
+        </header>
+        <div class="view__buttons">
+          <a class="view__button view__prev" href="#0"></a>
+          <a class="view__button view__next" href="#0"></a>
+        </div>
+        <div class="view__text">
+          <div class="headline">
+            <h1 class="headline__title">{{title}}</h1>
+          </div>
+          <div class="descrioption">
+            <p class="descrioption__paragraph">The Neretva river got its name from Celts, they called the river "Nera Etwa" which means the "Flowing Divinity", "Divine River", and no doubt this truly is the Nile of Bosnia and Herzegovina and, indeed, all of South-East Europe - that's my river</p>
+          </div>
+        </div>
+      </div>
+      <div class="view__media"><img class="view__image" src="img/view__image--1.png" alt=""></div>
+    </div>
+    <div class="view__bottom">
+      <div class="view__facts">
+        <div class="facts">
+          <h3 class="facts__title">{{title}}</h3>
+          <p class="facts__descr">More than 230 km</p>
+        </div>
+        <div class="facts">
+          <h3 class="facts__title">biggest lake</h3>
+          <p class="facts__descr">Jablanica lake</p>
+        </div>
+        <div class="facts">
+          <h3 class="facts__title">coolest activity</h3>
+          <p class="facts__descr">Rafting</p>
+        </div>
+      </div>
+      <div class="view__action"><a href="#0">find out more</a></div>
+    </div>
+  </script>
+  <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
