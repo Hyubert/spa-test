@@ -1,19 +1,19 @@
 {
-  "title": "Neretva river",
-  "descr": "The Neretva river got its name from Celts, they called the river \"Nera Etwa\" which means the \"Flowing Divinity\", \"Divine River\", and no doubt this truly is the Nile of Bosnia and Herzegovina and, indeed, all of South-East Europe - that's my river",
-  "img": "img/view__image--1.png",
+  "title": "Banff National Park",
+  "descr": "Banff National Park has a subarctic climate with three ecoregions, including montane, subalpine, and alpine. The forests are dominated by Lodgepole pine at lower elevations and Engelmann spruce in higher ones below the treeline, above which is primarily rocks and ice.",
+  "img": "img/view__image--2.png",
   "facts": [
     {
-      "facts__title": "river lenght",
-      "facts__descr": "More than 230 km"
+      "facts__title": "Main route spans",
+      "facts__descr": "6,641 square kilometres"
     },
     {
-      "facts__title": "biggest lake",
-      "facts__descr": "Jablanica lake"
+      "facts__title": "Located",
+      "facts__descr": "Rocky Mountains"
     },
     {
-      "facts__title": "coolest activity",
-      "facts__descr": "Rafting"
+      "facts__title": "Visitors",
+      "facts__descr": "3,609,639"
     }
   ],
   "description": [
