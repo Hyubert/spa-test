@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home</title>
+  <title></title>
   <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<body class="hidden">
 
   <div class="view">
     <!-- js render  -->
@@ -33,29 +33,23 @@
           <div class="headline">
             <h1 class="headline__title">{{title}}</h1>
           </div>
-          <div class="descrioption">
-            <p class="descrioption__paragraph">The Neretva river got its name from Celts, they called the river "Nera Etwa" which means the "Flowing Divinity", "Divine River", and no doubt this truly is the Nile of Bosnia and Herzegovina and, indeed, all of South-East Europe - that's my river</p>
+          <div class="descr">
+            <p class="descr__paragraph">{{descr}}</p>
           </div>
         </div>
       </div>
-      <div class="view__media"><img class="view__image" src="img/view__image--1.png" alt=""></div>
+      <div class="view__media"><img class="view__image" src={{img}} alt=""></div>
     </div>
     <div class="view__bottom">
       <div class="view__facts">
+        {{#each facts}}
         <div class="facts">
-          <h3 class="facts__title">{{title}}</h3>
-          <p class="facts__descr">More than 230 km</p>
+          <h3 class="facts__title">{{facts__title}}</h3>
+          <p class="facts__descr">{{facts__descr}}</p>
         </div>
-        <div class="facts">
-          <h3 class="facts__title">biggest lake</h3>
-          <p class="facts__descr">Jablanica lake</p>
-        </div>
-        <div class="facts">
-          <h3 class="facts__title">coolest activity</h3>
-          <p class="facts__descr">Rafting</p>
-        </div>
+        {{/each}}
       </div>
-      <div class="view__action"><a href="#0">find out more</a></div>
+      <div class="view__action"><a href="page.html">find out more</a></div>
     </div>
   </script>
   <script src="js/scripts.min.js"></script>

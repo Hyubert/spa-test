@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="hidden">
+
+  <div class="view">
+    <!-- js render  -->
+  </div>
+
+  <div class="load">
+    <div class="load__inner"></div>
+  </div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+    <div class="description">
+      <button class="description__back"></button>
+      <div class="description__poster" style="background-image: url({{img}})">
+        <div class="description__bottom">
+          <h2 class="description__title">{{title}}</h2>
+          <div class="description__facts">
+            {{#each facts}}
+            <div class="facts">
+              <h3 class="facts__title">{{facts__title}}</h3>
+              <p class="facts__descr">{{facts__descr}}</p>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="container typography">
+        {{#each description}}
+          <h3>{{description__title}}</h3>
+          <p>{{description__descr}}</p>
+        {{/each}}
+      </div>
+
+    </div>
+
+  </script>
+  <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
