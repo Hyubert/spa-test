@@ -1,3 +1,3 @@
 # spa-test
 
-[Preview](https://hyubert.github.io/spa-test/)
+[Preview](https://alexrusyn.github.io/spa-test/)
